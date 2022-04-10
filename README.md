@@ -1,7 +1,7 @@
 # Semi-Weakly Supervised Object Detection by Sampling Pseudo Ground-Truth Boxes
 This code is adapting the Faster R-CNN fully-supervised detector to the semi-weakly supervised settings by our sampling based training algorithm proposed in the paper "Semi-Weakly Supervised Object Detection by Sampling Pseudo Ground-Truth Boxes". 
 The original Faster R-CNN implementation is from [loolzaaa](https://github.com/loolzaaa/faster-rcnn-pytorch). In this version, we are not using the python extension compiled for NMS, ROI layers, instead the RoI pooling and NMS of Pytorch is used. 
-So there is no compilation steps.
+So there are no compilation steps.
 
 Additionally, visualizations are created for training and testing process using visdom.
 
@@ -58,7 +58,7 @@ Additionally, visualizations are created for training and testing process using 
 </table>
 
 Here L and WL stands for fully-labeled and weakly labeled respetively. More results are available
-in the [paper](https://arxiv.org/pdf/2204.00147.pdf)
+in the [paper](https://arxiv.org/pdf/2204.00147.pdf).
 
 
 ---
